@@ -9,6 +9,7 @@ public class Search {
 	private String searchCondition;
 	private String searchKeyword;
 	private int pageSize;
+	private String searchType;
 	//==> 리스트화면 currentPage에 해당하는 회원정보를 ROWNUM 사용 SELECT 위해 추가된 Field 
 	//==> UserMapper.xml 의 
 	//==> <select  id="getUserList"  parameterType="search"	resultMap="userSelectMap">
@@ -49,6 +50,13 @@ public class Search {
 		this.searchKeyword = searchKeyword;
 	}
 	
+	public String getSearchType() {
+		return searchType;
+	}
+	
+	public void setSearchType(String searchType) {
+		this.searchType = searchType;
+	}
 	//==> Select Query 시 ROWNUM 마지막 값 
 	public int getEndRowNum() {
 		return getCurrentPage()*getPageSize();
@@ -65,4 +73,5 @@ public class Search {
 				+ ", pageSize=" + pageSize + ", endRowNum=" + endRowNum
 				+ ", startRowNum=" + startRowNum + "]";
 	}
+
 }
