@@ -17,7 +17,7 @@ public interface ProductDao {
 
 	public void updateProduct(Product productVO) throws Exception;
 
-	public void deleteProduct(int prodNo) throws Exception;
+	public void deleteProduct(String prodName) throws Exception;
 
 
 

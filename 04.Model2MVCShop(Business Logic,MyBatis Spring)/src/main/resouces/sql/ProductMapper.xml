@@ -47,9 +47,9 @@
 	   	WHERE prod_no = #{prodNo}
 	 </update>
 
-	<delete id="deleteProduct" parameterType="int">
+	<delete id="deleteProduct" parameterType="string">
 		DELETE FROM product
-		WHERE prod_no = #{value}
+		WHERE prod_name = #{value}
 	</delete>
 
 	<!-- SQL : SELECT LIST -->
@@ -82,7 +82,7 @@
 	</select>
 
 	<select id="getProductList" parameterType="search" resultMap="productSelectMap">
-		SELECT p.prod_no, p.prod_name,p.prod_detail, p.manufacture_day, p.price, p.image_file, p.reg_date
+		SELECT prod_no, prod_name,prod_detail, manufacture_day, price, image_file,reg_date
 		FROM ( SELECT inner_table.* , ROWNUM AS row_seq
 		FROM ( SELECT p.prod_no,
 		p.prod_name,
@@ -119,7 +119,7 @@
 		-->
 
 	<!-- SQL : SELECT ROW Count -->	 
-	 <select  id="getTotalCount"  parameterType="search"	 resultType="int">
+	 <select  id="getTotalCountWithTran"  parameterType="search"	 resultType="int">
 	  	SELECT COUNT(*)
 		 FROM ( SELECT p.prod_no,
 		 p.prod_name,
@@ -131,6 +131,29 @@
 		 t.tran_status_code
 		 FROM product p
 		 LEFT JOIN transaction t ON p.prod_no=t.prod_no
+		 <if test="searchCondition != null">
+			 <where>
+				 <if test="searchCondition == 0 and searchKeyword !='' ">
+					 PROD_NAME LIKE CONCAT(#{searchKeyword},'%')
+				 </if>
+				 <if test="searchCondition == 1 and searchKeyword !='' ">
+					 PROD_NAME LIKE CONCAT(#{searchKeyword},'%')
+				 </if>
+			 </where>
+		 </if> ) count_table
+		  /* end of FROM */
+</select>
+
+	 <select  id="getTotalCount"  parameterType="search"	 resultType="int">
+	  	SELECT COUNT(*)
+		 FROM ( SELECT p.prod_no,
+		 p.prod_name,
+		 p.prod_detail,
+		 p.manufacture_day,
+		 p.price,
+		 p.image_file,
+		 p.reg_date
+		 FROM product p
 		 <if test="searchCondition != null">
 			 <where>
 				 <if test="searchCondition == 0 and searchKeyword !='' ">

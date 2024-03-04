@@ -56,8 +56,8 @@ public class ProductDaoImpl implements ProductDao {
 		sqlSession.update("ProductMapper.updateProduct", product);
 	}
 
-	public void deleteProduct(int prodNo) throws Exception {
-		sqlSession.delete("ProductMapper.deleteProduct", prodNo);
+	public void deleteProduct(String prodName) throws Exception {
+		sqlSession.delete("ProductMapper.deleteProduct", prodName);
 	}
 
 	//getTotalCount´Â 

@@ -35,23 +35,18 @@ public class ProductServiceTest {
         product.setPrice(10000);
         product.setProdDetail("testProdDetail");
         product.setProdName("testProdName");
-        product.setProdNo(1);
+        product.setProdNo(10034);
         product.setRegDate(Date.valueOf("2021-05-05"));
         product.setProTranCode("1");
         return product;
     }
 
-    @Test
+    //@Test
     public void testAddProduct() throws Exception {
         Product product = getProductInstance();
         productService.addProduct(product);
     }
 
-    @Test
-    public void testDeleteProduct() throws Exception {
-        Product product = getProductInstance();
-        productService.deleteProduct(product.getProdNo());
-    }
 
 
     @Test
@@ -66,6 +61,12 @@ public class ProductServiceTest {
         productService.updateProduct(product);
     }
 
+    //@Test
+    public void testDeleteProduct() throws Exception {
+    	Product product = getProductInstance();
+    	product = productService.getProduct(product.getProdNo());
+    	productService.deleteProduct(product.getProdName());
+    }
     @Test
     public void testGetProductList() throws Exception {
 

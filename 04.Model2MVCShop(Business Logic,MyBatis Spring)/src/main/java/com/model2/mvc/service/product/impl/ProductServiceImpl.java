@@ -53,8 +53,8 @@ public class ProductServiceImpl implements ProductService{
 		return  product;
 	}
 
-	public void deleteProduct(int prodNo) throws Exception {
-		productDao.deleteProduct(prodNo);
+	public void deleteProduct(String prodName) throws Exception {
+		productDao.deleteProduct(prodName);
 	}
 
 	public Map<String,Object> getProductList(Search search) throws Exception {
