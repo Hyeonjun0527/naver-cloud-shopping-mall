@@ -1,0 +1,321 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AnalysisUIOptions">
+    <option name="SPLITTER_PROPORTION" value="0.35991532" />
+  </component>
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="e868797a-415a-4c1c-944c-2cbef6b29e08" name="변경" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CodeInsightWorkspaceSettings">
+    <option name="optimizeImportsOnTheFly" value="true" />
+  </component>
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$/../_04.Model2MVCShop">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <projects_view>
+          <tree_state>
+            <expand>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="_04.Model2MVCShop" type="f1a62948:ProjectNode" />
+              </path>
+            </expand>
+            <select />
+          </tree_state>
+        </projects_view>
+      </state>
+    </system>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+        <option value="Interface" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/src/main/resouces/sql/ProductMapper.xml" root0="FORCE_HIGHLIGHTING" />
+  </component>
+  <component name="LLMProjectSettings">
+    <option name="turned_on" value="false" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 7
+}</component>
+  <component name="ProjectId" id="2d4xpxU4mAofcwm0Sjnk05a2OuY" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="autoscrollToSource" value="true" />
+    <option name="compactDirectories" value="true" />
+    <option name="flattenPackages" value="true" />
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="openDirectoriesWithSingleClick" value="true" />
+    <option name="showLibraryContents" value="true" />
+    <option name="showModules" value="false" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "JAR 애플리케이션.spring-context-indexer-5.2.5.RELEASE.jar.executor": "Run",
+    "JUnit.ProductServiceTest.executor": "Run",
+    "JUnit.ProductServiceTest.testDeleteProduct.executor": "Run",
+    "JUnit.UserServiceTest (1).executor": "Run",
+    "JUnit.UserServiceTest (2).executor": "Run",
+    "JUnit.UserServiceTest.executor": "Run",
+    "JUnit.UserServiceTest.testGetUser.executor": "Run",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "ignore.virus.scanning.warn.message": "true",
+    "jdk.selected.JAVA_MODULE": "1.8",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/z.utility/lib/spring-beans-5.2.5.RELEASE.jar",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "onboarding.tips.debug.path": "C:/Users/osuma/git/04model/Model2MVCShop04/src/Main.java",
+    "project.structure.last.edited": "모듈",
+    "project.structure.proportion": "0.15632965",
+    "project.structure.side.proportion": "0.33064517",
+    "run.code.analysis.last.selected.profile": "pProject Default",
+    "settings.editor.selected.configurable": "preferences.keymap",
+    "vue.rearranger.settings.migration": "true"
+  },
+  "keyToStringList": {
+    "DatabaseDriversLRU": [
+      "oracle"
+    ]
+  }
+}]]></component>
+  <component name="QodanaReportsService">
+    <option name="descriptions">
+      <ReportDescription localRun="true" path="C:\Users\osuma\AppData\Local\Temp\qodana_output\qodana.sarif.json" reportGuid="b2d54494-1668-4b6b-9717-9c9af47ac7a0" reportId="04.Model2MVCShop(Business Logic,MyBatis Spring)/qodana/2024-03-02" />
+    </option>
+  </component>
+  <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="com.model2.mvc.service.user.test" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\osuma\git\04model\04.Model2MVCShop(Business Logic,MyBatis Spring)\src\main\java\com\model2\mvc\service\product\dao" />
+    </key>
+  </component>
+  <component name="RunManager" selected="JUnit.ProductServiceTest.testDeleteProduct">
+    <configuration name="ProductServiceTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="04.Model2MVCShop(Business Logic,MyBatis Spring)" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.model2.mvc.service.user.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.model2.mvc.service.user.test" />
+      <option name="MAIN_CLASS_NAME" value="com.model2.mvc.service.user.test.ProductServiceTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ProductServiceTest.testDeleteProduct" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="04.Model2MVCShop(Business Logic,MyBatis Spring)" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.model2.mvc.service.user.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.model2.mvc.service.user.test" />
+      <option name="MAIN_CLASS_NAME" value="com.model2.mvc.service.user.test.ProductServiceTest" />
+      <option name="METHOD_NAME" value="testDeleteProduct" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UserServiceTest (2)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="04.Model2MVCShop(Business Logic,MyBatis Spring)" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.model2.mvc.service.user.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.model2.mvc.service.user.test" />
+      <option name="MAIN_CLASS_NAME" value="com.model2.mvc.service.user.test.UserServiceTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UserServiceTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Model2MVCShop04" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.model2.mvc.service.user.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
+      <option name="ALTERNATIVE_JRE_PATH" value="1.8" />
+      <option name="PACKAGE_NAME" value="com.model2.mvc.service.user.test" />
+      <option name="MAIN_CLASS_NAME" value="com.model2.mvc.service.user.test.UserServiceTest" />
+      <option name="METHOD_NAME" value="" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UserServiceTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Model2MVCShop04" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.model2.mvc.service.user.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
+      <option name="ALTERNATIVE_JRE_PATH" value="1.8" />
+      <option name="PACKAGE_NAME" value="com.model2.mvc.service.user.test" />
+      <option name="MAIN_CLASS_NAME" value="com.model2.mvc.service.user.test.UserServiceTest" />
+      <option name="METHOD_NAME" value="" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UserServiceTest.testGetUser" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="04.Model2MVCShop(Business Logic,MyBatis Spring)" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.model2.mvc.service.user.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.model2.mvc.service.user.test" />
+      <option name="MAIN_CLASS_NAME" value="com.model2.mvc.service.user.test.UserServiceTest" />
+      <option name="METHOD_NAME" value="testGetUser" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.ProductServiceTest.testDeleteProduct" />
+        <item itemvalue="JUnit.ProductServiceTest" />
+        <item itemvalue="JUnit.UserServiceTest (2)" />
+        <item itemvalue="JUnit.UserServiceTest.testGetUser" />
+        <item itemvalue="JUnit.UserServiceTest" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="애플리케이션 수준" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="디폴트 작업">
+      <changelist id="586ae5fb-b6d3-4b98-8dfb-0a963ec6bc99" name="변경" comment="" />
+      <created>1709281338672</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1709281338672</updated>
+      <workItem from="1709281339686" duration="4531000" />
+      <workItem from="1709285892415" duration="3139000" />
+      <workItem from="1709289179166" duration="2155000" />
+      <workItem from="1709291350958" duration="704000" />
+      <workItem from="1709365939903" duration="3616000" />
+      <workItem from="1709370826261" duration="6017000" />
+      <workItem from="1709433561124" duration="4100000" />
+    </task>
+    <task id="LOCAL-00001" summary="new/dev 2024.03.02 Product Component">
+      <option name="closed" value="true" />
+      <created>1709370065477</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1709370065478</updated>
+    </task>
+    <task id="LOCAL-00002" summary="new/dev 2024.03.02 Product Component">
+      <option name="closed" value="true" />
+      <created>1709373193234</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1709373193234</updated>
+    </task>
+    <task id="LOCAL-00003" summary="new/dev 2024.03.04 Product Component">
+      <option name="closed" value="true" />
+      <created>1709509183165</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1709509183165</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="new/dev 2024.03.02 Product Component" />
+    <MESSAGE value="new/dev 2024.03.04 Product Component" />
+    <option name="LAST_COMMIT_MESSAGE" value="new/dev 2024.03.04 Product Component" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/../Model2MVCShop/src/main/java/org/example/Main.java</url>
+          <line>13</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/../Model2MVCShop04/src/Main.java</url>
+          <line>11</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
+  </component>
+</project>
